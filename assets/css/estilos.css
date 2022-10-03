@@ -13,11 +13,15 @@ body{
     }
     
 }
-
 .wrap-icono{
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.seccion-destacados img{
+    height: 120 px;
+    object-fit: cover;
 
 }
