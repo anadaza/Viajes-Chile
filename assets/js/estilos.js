@@ -1,3 +1,5 @@
+alert("Bienvenido a Viajes Chile");
+
 $(function(){
     $('[data-bs-taggle="tooltip"]').tooltip()
 })
@@ -11,4 +13,7 @@ $(document).scroll(function(){
 
     y > 300 ? $("nav").addClass("nav-black") : $("nav").removeClass("nav-black");
 })
+
+
+
 
